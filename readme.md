@@ -1,4 +1,4 @@
-## Spring boot V3 - Many-to-Many Relationship Database
+## Spring boot V3 - CRUD Spring Boot + MySQL + Thymeleaf
 
 ## System Requirements
 
@@ -23,7 +23,7 @@
 https://github.com/rardan97/spring-boot-crud-user-thymeleaf.git
 ```
 
-2. add new database mysql with name "db_spring_user"
+2. create a new database mysql with name "db_spring_user"
 
 3. open project with intellij IDEA then edit config database in application.properties change database name, username and password match your config db
 
@@ -44,7 +44,7 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
 ```
 mvn clean install 
 ```
-5. if success, next input command
+5. when success process clean install, next input command for run application
 ```
 mvn spring-boot:run
 ```
